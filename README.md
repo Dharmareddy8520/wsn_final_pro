@@ -18,9 +18,10 @@ The models evaluated include:
 ```
 wsn_final/
 ├───Notebooks/                 # Contains Jupyter Notebooks for analysis and modeling
-│   ├───datasets/              # Includes datasets used in the project
-│   │   ├───Bot-IoT/           # Dataset 1: Bot-IoT for intrusion detection
-│   │   └───IDSAI/             # Dataset 2: IDSAI for intrusion detection
+│   ├──   Intrusion detection using ML.ipynb        # notebook file
+│_____Datasets/ 
+|     |____Bot-IoT/            # Dataset 1: Bot-IoT for intrusion detection
+│     └───IDSAI                 # Dataset 2: IDSAI for intrusion detection
 │   ├───plots/                 # Stores plots for binary and multiclass classification
 │   │   ├───binary/            # Confusion matrices for binary classification models
 │   │   └───multimodel/        # Confusion matrices for multiclass classification models
